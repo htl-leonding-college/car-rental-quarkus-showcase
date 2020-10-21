@@ -3,6 +3,7 @@
 Create a simple application for your micro-project-topic in Quarkus:
 
 1. lastname-projectname zB mustermann-restaurant
+2. The Quarkus project is to locate in the root of the project folder (no sub-dir)
 2. In the package `at.htl.<projectname>.entity` zB. `at.htl.restaurant.entity` create a new entity-class ie Product
 (in this restaurant are the products dishes and beverages)
 3. Store the data in a collection in a appropriate repository (you use NO database)
