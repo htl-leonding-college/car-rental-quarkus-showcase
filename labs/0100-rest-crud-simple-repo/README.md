@@ -17,7 +17,7 @@ a class `<Entity>Service.java` ie `ProductService.java`
   * Response
   * marshalling of an object
 
-6. In a file `request.http` create the appropriate requests, for consuming your endpoints.
+7. In a file `request.http` create the appropriate requests, for consuming your endpoints.
 7. The endpoints are supposed to work with data in JSON- or XML-format
 8. Use Swagger for documenting your endpoints.
 9. Create an essential description of your project in the `README.md`
