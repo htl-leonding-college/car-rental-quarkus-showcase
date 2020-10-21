@@ -1,0 +1,55 @@
+POST localhost:8080/api-object
+Content-Type: application/json
+
+{
+  "brand": "Messerschmitt",
+  "model": "Kabinenroller",
+  "license-plate-no": "LL-4711ABC"
+}
+
+###
+
+POST localhost:8080/api-object
+Content-Type: application/json
+
+{
+  "brand": "Messerschmitt",
+  "model": "Kabinenroller",
+  "license-plate-no": "   "
+}
+
+###
+
+GET http://localhost:8080/api-object/LL-4711ABC
+Accept: application/json
+
+###
+
+GET localhost:8080/api-object
+
+###
+
+GET localhost:8080/api-object/L-12345D
+Accept: application/json
+
+###
+
+GET localhost:8080/api-object/L-12345D
+Accept: application/xml
+
+###
+
+
+GET localhost:8080/vehicle/1
+
+###
+
+GET localhost:8080/vehicle/2
+
+###
+
+GET localhost:8080/vehicle/3
+
+###
+
+
