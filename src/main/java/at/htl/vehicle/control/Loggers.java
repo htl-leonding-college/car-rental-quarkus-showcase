@@ -14,6 +14,7 @@ public class Loggers {
                         .getMember()
                         .getDeclaringClass()
                         .getSimpleName()
+                        //.getCanonicalName()
                 );
     }
 }
